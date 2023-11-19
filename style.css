@@ -2,20 +2,60 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
 }
 
 .container1{
     background-color: #1f2937;
     color: white;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+}
+
+.a_header{
+    font-size: 30px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
 
 ul{
     display: flex;
     list-style-type: none;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 9px;
+    width: 125px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
