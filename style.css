@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container1{
+    background-color: #1f2937;
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
